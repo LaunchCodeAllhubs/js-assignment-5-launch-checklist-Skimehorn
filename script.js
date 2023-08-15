@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
         let fuelLevel = document.querySelector("input[name=fuelLevel]").value;
         let cargoMass = document.querySelector("input[name=cargoMass]").value;
       
-        if (pilotName === "" || copilotName === "" || fuelLevel === "" || cargoMass ) {
+        if (pilotName === "" || copilotName === "" || fuelLevel === "" || cargoMass === "" ) {
             alert("All feilds required to continue.");
             event.preventDefault();
         } 
